@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDJAPIApplication", "HDJAPIApplication\HDJAPIApplication.csproj", "{19CEBAD7-0CCA-428D-B9A1-BFB165D0A0DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BCFC2EA-4CAF-4970-8C00-FEDDEB927FC3} = {7BCFC2EA-4CAF-4970-8C00-FEDDEB927FC3}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCore", "..\MyCore\MyCore\MyCore.csproj", "{7BCFC2EA-4CAF-4970-8C00-FEDDEB927FC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19CEBAD7-0CCA-428D-B9A1-BFB165D0A0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CEBAD7-0CCA-428D-B9A1-BFB165D0A0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CEBAD7-0CCA-428D-B9A1-BFB165D0A0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CEBAD7-0CCA-428D-B9A1-BFB165D0A0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCFC2EA-4CAF-4970-8C00-FEDDEB927FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCFC2EA-4CAF-4970-8C00-FEDDEB927FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCFC2EA-4CAF-4970-8C00-FEDDEB927FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCFC2EA-4CAF-4970-8C00-FEDDEB927FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A417EDC-BE7B-4318-A551-5AA5BAE6894F}
+	EndGlobalSection
+EndGlobal
